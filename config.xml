@@ -3,13 +3,13 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.pgap.hello"
+        id        = "com.meetunow.hello"
         version   = "1.0.0">
 
-    <name>Fire Live maps</name>
+    <name>Meet U Live</name>
 
     <description>
-        Fire Alerts.
+        Sign Alerts.
     </description>
 
     <author href="http://phonegap.com" email="support@phonegap.com">
@@ -42,11 +42,8 @@
 
     <!-- Core plugins -->
     <plugin name="cordova-plugin-battery-status" />
-    <plugin name="cordova-plugin-media-capture" />
     <plugin name="cordova-plugin-console" />
-    <plugin name="cordova-plugin-contacts" />
     <plugin name="cordova-plugin-device" />
-    <plugin name="cordova-plugin-device-motion" />
     <plugin name="cordova-plugin-device-orientation" />
     <plugin name="cordova-plugin-dialogs" />  
     <plugin name="cordova-plugin-geolocation" />
@@ -55,7 +52,7 @@
     <plugin name="cordova-plugin-media" />
     <plugin name="cordova-plugin-network-information" />
     <plugin name="cordova-plugin-splashscreen" />
-    <plugin name="cordova-plugin-vibration" />
+    
 
     <!-- Third party plugins -->
     <!-- A list of available plugins are available at https://build.phonegap.com/plugins -->
